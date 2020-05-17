@@ -1,6 +1,7 @@
 ## Tutorial
 
 ### ARIMA 와 PROPHET
+<pre>
 ARIMA
     AR(autoregression):
         자기 자신의 과거 정보로 사용하는 개념.즉 현재의 상태는 이전의 상태를 참고해서 계산된다.
@@ -17,8 +18,10 @@ PROPHET
     seasonality_mode: 연간,월간,주간,일간 등의 트렌드성을 반영하는것을 의미
     changepoint_prior_scale:트렌드가 변경되는 문맥을 반영하는 파라미터,
         수치가 높을수록 모델은 과적합에 가까워진다.
+</pre>
 
 ### Google colab 사용
+<pre>
 1. 구글 드라이브에서 새로 만들기 -> colab 파일 생성
 2. 런타임 -> 런타임 유형 -> GPU , python3
 3. 구글 드라이브 마운트:
@@ -36,3 +39,4 @@ PROPHET
 
 5. colab 에서 패키지 설치
 !pip install fbprophet
+</pre>
